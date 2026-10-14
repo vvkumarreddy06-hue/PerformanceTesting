@@ -40,7 +40,7 @@
       </CookieManager>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group_JPSC01_ProductBooking">
-        <intProp name="ThreadGroup.num_threads">10</intProp>
+        <intProp name="ThreadGroup.num_threads">1</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
@@ -2191,7 +2191,7 @@
           <stringProp name="filename">C:\Users\DELL\Downloads\JPSC01_ProductBooking3.csv</stringProp>
         </ResultCollector>
         <hashTree/>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_Launch">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_Launch" enabled="true">
           <boolProp name="TransactionController.parent">true</boolProp>
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
@@ -2256,7 +2256,7 @@
           </ConstantTimer>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_EnterTheStore">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_EnterTheStore" enabled="true">
           <boolProp name="TransactionController.parent">true</boolProp>
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
@@ -2335,7 +2335,7 @@
           </ConstantTimer>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_Signin">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_Signin" enabled="true">
           <boolProp name="TransactionController.parent">true</boolProp>
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
@@ -2448,7 +2448,7 @@
           </ConstantTimer>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_Login">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_Login" enabled="true">
           <boolProp name="TransactionController.parent">true</boolProp>
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
@@ -3308,7 +3308,7 @@
             </hashTree>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_SelectAnyPet">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_SelectAnyPet" enabled="true">
           <boolProp name="TransactionController.parent">true</boolProp>
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
@@ -3402,7 +3402,7 @@
           </ConstantTimer>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_SelectAnySubPet">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_SelectAnySubPet" enabled="true">
           <boolProp name="TransactionController.parent">true</boolProp>
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
@@ -3570,7 +3570,7 @@
           </ConstantTimer>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_SelectAnySubPetType">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_SelectAnySubPetType" enabled="true">
           <boolProp name="TransactionController.parent">true</boolProp>
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
@@ -3654,7 +3654,7 @@
           </ConstantTimer>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_AddToCart">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_AddToCart" enabled="true">
           <boolProp name="TransactionController.parent">true</boolProp>
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
@@ -3825,7 +3825,7 @@
           </ConstantTimer>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_Continue">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_Continue" enabled="true">
           <boolProp name="TransactionController.parent">true</boolProp>
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
@@ -4001,7 +4001,7 @@
           </ConstantTimer>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_COnfirm">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_COnfirm" enabled="true">
           <boolProp name="TransactionController.parent">true</boolProp>
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
@@ -4085,7 +4085,7 @@
           </ConstantTimer>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_SignOut">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPSC01_ProductBooking_SignOut" enabled="true">
           <boolProp name="TransactionController.parent">true</boolProp>
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
